@@ -23,7 +23,7 @@ or `$ .venv/Scripts/activate` (windows)
 `$ docker build -t {image-name} .`
     2. Run tool  
 `$ docker run -d --name {container-name} -p 8001:8001 {image-name}`  
-or `$ docker run -d --name {container-name} -p 127.0.0.1:8001:8001 {image-name}` 
+or `$ docker run -d --name {container-name} -p 127.0.0.1:8001:8001 {image-name}`  
     ***Note***: After running tool from **docker**, remove current container before running tool again  
         `$ docker container rm {container-name}`
 ### 📖 Running tool
